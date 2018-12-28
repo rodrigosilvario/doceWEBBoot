@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang='pt-BR'>
+<head>
+	<meta charset='UTF-8'>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel='stylesheet' href='css/estrutura.css'>
+</head>
+<body>
+<!-- <div class="container-fluid"> -->
+	<nav class="navbar navbar-expand-lg bg-chocolate">
+		<div class="container">
+			<!-- Brand -->
+			<h1 class="navbar-brand marca-colher brusher">colher de <br> doce deLeite </h1>
+			<!-- Toggler/collapsibe Button -->
+			<button class="navbar-toggler" id="btn-hamburguer" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			<div class="hamburguer" onclick="myFunction(this)">
+				<div class="bar1"></div>
+				<div class="bar2"></div>
+				<div class="bar3"></div>
+			</div>
+			</button>
+			<div class="collapse navbar-collapse justify-content-end align-self-end" id="collapsibleNavbar">
+				<ul class="navbar-nav menuPrincipal">
+					<li class="nav-item">
+						<a class="nav-link" href='home.html'> Início </a> 
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown"> Produtos </a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href='miniDoces.html'>MiniDoces</a>
+								<a class="dropdown-item" href='brownie.html'>Brownies</a>
+								<a class="dropdown-item" href='bolo.html'>Bolos & Tortas</a>
+							</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href='galeria.html'>Galeria</a> 
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href='sobre.html'>Sobre </a> 
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href='contato.html'>Contato</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+<!-- </div> -->
+
+
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="js/estrutura.js"></script>
+</body>
+</html>
