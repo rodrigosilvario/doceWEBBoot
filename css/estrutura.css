@@ -8,9 +8,18 @@
     font-family: "brusher";
     src: url("../fonts/Brusher.ttf") format("truetype");
 }
+
+@font-face {
+	font-family: "Lobster";
+	src: url("../fonts/Lobster-Regular.ttf") format("truetype");
+}
 	  
 .brusher{
     font-family: "brusher";  
+}
+
+.lobster{
+	font-family: "Lobster";
 }
 
 /* ==========================================================================
@@ -28,7 +37,25 @@ body {
 	background-color: #654C23;
 }
 
+.bg-docedeleite{
+	background-color: #E1A539;
+}
 
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+.fa-facebook {
+    background: #FFFFFF;
+    color: #654C23;
+	
+}
+
+.fa-instagram {
+  background: #FFFFFF;
+  color: #654C23;
+}
 
 .navbar-toggler {
     border-color: #FFFFFF !important;
@@ -36,6 +63,12 @@ body {
 
 .dropdown-toggle::after{
 	display:none;
+}
+
+.dropdown-menu{
+	margin: 0;
+	margin-top: -0.05rem;
+	border: 2px;
 }
 
 
@@ -72,20 +105,25 @@ body {
 
 .marca-colher {
 	text-align: center;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	color: #FFFFFF;
+	margin: 0 auto;
+	padding: 0;
 }
 
 .menuPrincipal{
 	font-size:1.5rem;
 	font-weight: normal;
 	color: #FFFFFF;
-	padding: 10px;
+	font-family: "Lobster";
 }
 
 .menuPrincipal a{
 	font-size:1.5rem;
 	font-weight: normal;
 	color: #FFFFFF;
+	
 }
+
+
 
