@@ -133,16 +133,47 @@ nav {
 }
 
 .carousel-inner img {
+	  padding-top: 7rem;
       width: 100%;
-      height: 100;
-	  background: fixed;
+      height: 100%;
+	  /* background-repeat: no-repeat;
+	  background-attachment: fixed !important;
+      background-size: cover !important;   
+      background-position: center !important; */
  }
   
  .carousel-item{
 	width: 92rem;
-	height: 30rem;
+	height: 40rem;
  } 
-  
+ 
+ .page-footer div a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.fa-instagram {
+  background: #654C23 !important;
+  color: #FFFFFF !important;
+}
+
+
+/* ==========================================================================
+   seção SOBRE
+   ========================================================================== */
+
+#sectionSobre {
+	background: url("../imagens/fundo_luccas.png") fixed;
+	background-size: cover;
+	
+}
+
+.foto_perfil {
+	width: 15rem;
+	height: 15rem;
+	border: 7px solid #654C23;
+	
+}
 
 
 
