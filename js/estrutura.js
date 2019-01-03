@@ -19,12 +19,22 @@ $(document).ready(function(){
     }, 
     click: function(){
 		$(".dropdown-menu,.dropdown").toggleClass("show");
-		$("#navbardrop").addClass("bg-docedeleite");
+		$("#navbardrop").toggleClass("bg-docedeleite");
 		$("#navbardrop").css({"border-top-left-radius": "4px"});
 		$("#navbardrop").css({"border-top-right-radius": "4px"});
     }  
   });
+  $(".acessoSecao").on({
+	  click: function(){
+		document.getElementById("dsn-hamburguer").classList.toggle("change");
+		document.getElementById("btn-hamburguer").blur();
+		$(".navbar-toggler").addClass("collapsed");
+		$(".navbar-collapse").removeClass("show");
+    }  
+	});
 });
+
+
 
 $('.carousel').carousel({
   interval: 1500
